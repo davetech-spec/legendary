@@ -3,7 +3,17 @@
     padding: 0;
 
 }
+.logo {
+    position: relative;
+    background: black;
+    max-width: 100%;
+    min-height: 350px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
+}
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,6 +56,7 @@ h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     top: 80%;
 }
+
 
 
 
