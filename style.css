@@ -26,7 +26,7 @@ img {
     display: grid;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
-    max-width: 60vw;
+    max-width: 100vw;
     min-height: 20vh;
     grid-template-columns: 1fr 1fr;
     text-align: justify;
@@ -44,4 +44,5 @@ h2 {
      transform: translateY(20%);
     
 }
+
 
