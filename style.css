@@ -31,3 +31,9 @@ img {
     grid-template-columns: 1fr 1fr;
 
 }
+.vision {
+    transform: translateY(20%);
+}
+h2 {
+    color: #7e7c7c;
+}
