@@ -29,7 +29,9 @@ img {
     max-width: 60vw;
     min-height: 20vh;
     grid-template-columns: 1fr 1fr;
-    text-align: justify
+    text-align: justify;
+    margin-left: 2%;
+    gap: 4rem;
 
 }
 .vision {
@@ -42,3 +44,4 @@ h2 {
      transform: translateY(20%);
     
 }
+
