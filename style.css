@@ -7,7 +7,7 @@
 }
 body {
     background: blanchedalmond;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
 
 }
@@ -17,21 +17,22 @@ body {
     float: left;
     position: absolute;
 }
-img {
+.logo img {
     float: left;
-    max-width: 5%;
+    max-width: 6cap;
     min-height: auto;
 }
 .statement {
     display: grid;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     max-width: 100vw;
     min-height: 20vh;
     grid-template-columns: 1fr 1fr;
     text-align: justify;
     margin-left: 2%;
     gap: 4rem;
+    transform: translateY(10%);
 
 }
 .vision {
@@ -44,5 +45,22 @@ h2 {
      transform: translateY(20%);
     
 }
+.ceo {
+    color: #fff;
+    transform: translateY(10%);
+}
+h1 {
+    transform: translateY(10%);
+}
 
-
+.content {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    display: grid;
+    background: #fff;
+    max-width: 50vw;
+    min-height: 40vh;
+    text-align: justify;
+    grid-template-columns: 30% 1fr ;
+}
+,
