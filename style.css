@@ -13,6 +13,9 @@ body {
 }
 .main {
     background: #fff;
+    width: 100vw;
+    height: 100Vh;
+    
 }
 .begin {
     max-width: 100%;
@@ -26,7 +29,7 @@ body {
 
 }
 .begin p span {
-    font-size:0.9rem;   
+    font-size:0.6rem;   
     
 }
 .logo {
@@ -84,6 +87,7 @@ h2 {
 }
 .mission {
      transform: translateY(20%);
+     
     
 }
 
@@ -106,20 +110,21 @@ h2 {
     width: 100vw;
     height: 20vh;
     position: relative;
-    transform: translateY(35%);
+    transform: translateY(30%);
 }
 .news1 {
     font-size: 0.6rem;
-    color: brown;
-    transform: translateY(100%);
+    color: #a52a2a;
+    transform: translateY(60%);
     margin: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .news1 span {
     color: #000;
-    font-size: 0.8rem;
-    font-family: inherit;
+    font-size: 1rem;
+    font-family: Tahoma;
+    
 
 }
 .news a {
@@ -132,6 +137,23 @@ h2 {
     color: black;
 }
 
+.news2 img {
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    transform: translateY(15%);
+
+}
+
+.news2 a {
+    color: red;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}
+.news2 a :hover {
+    text-decoration: none;
+    color: black;
+}
 
 
 
