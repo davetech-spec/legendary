@@ -15,7 +15,7 @@ body {
 .main {
     background: #fff;
     width: 100vw;
-    min-height: 100vh;
+    min-height: auto;
 
 }
 .begin {
@@ -141,9 +141,9 @@ h2 {
 
 .news img {
     width: 100vw;
-    height: 20vh;
+    height: 40vh;
     position: relative;
-    transform: translateY(30%);
+    transform: translateY(15%);
 }
 .news1 {
     font-size: 0.6rem;
@@ -227,12 +227,28 @@ h2 {
     background: #000;
     max-width: 100vw;
     min-height: auto;
-    outline: 5px solid red;
-    display: grid;
-    grid-template-columns: auto;
+
     
 
 }
+.connect {
+    color: #fff;
+    font-family: Cambria;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.social-icon {
+    color: #fff;
+    transition: .4s ease;
+}
+.social-icon:hover {
+    color: red;
+    transform: scale(0.9);
+    cursor: pointer;
+
+
+}
+
 .close img:hover {
     transform: scale(1.1);
     transition: .4s ease-in-out;
@@ -276,24 +292,50 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 2%;;
     line-height: 1rem;
+    
 }
+.socials {
+    display: flex;
+    width: 100vw;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+    border-bottom: 2px solid #fff;
+}
+
 .about h3 {
     color: #fff;
     font-size: 0.7rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 2%;
-    transform: translateY(-150%);
+    transform: translate(5%, -380%);
+    position: relative;
+    text-align: justify;
 }
 .about-1 {
     color: #fff;
     font-size: 0.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
+    text-align: center;
     margin: 2%;
     width: 50vw;
-    min-height: 20vh;
-    line-height: 1rem;
-    transform: translateY(-7%);
+    min-height: 2vh;
+    line-height: 0.8rem;
+    transform: translateY(-36%);
+}
+.about-1 p {
+    color: #fff;
+    font-size: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 2%;
+    width: 50vw;
+    min-height: 2vh;
+    line-height: 0.8rem;
+    transform: translateY(-17%);
+
 }
 .copy {
     color: #fff;
@@ -301,18 +343,10 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 5%;
-    transform: translateY(-40%);
+    transform: translateY(450%);
     line-height: 1.5rem;
 }
-.address {
-    color: #fff;
-    font-size: 0.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: 5%;
-    transform: translateY(-30%);
-    line-height: 1.5rem;
-}
+
 .phone {
     color: #fff;
     font-size: 0.5rem;
