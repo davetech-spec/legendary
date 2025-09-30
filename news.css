@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100vw;
+    height:auto;
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 100%;
+    background: #545252;
+    float: left;
+    position: absolute;
+}
+
+
+
+.logo img {
+    float: left;
+    max-width: 15vw;
+    min-height: auto;
+    transform: translateY(10%);
+
+}
+.menu {
+    max-width: auto;
+}
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    margin-left: 4%;
+    margin-top: 6%;
+    transform: translateX(110%);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+
+}
+.menu ul li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+.head {
+    transform: translateY(100%);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.head h2 {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+    position: relative;
+    transform: translateY(20%);
+}
+.news img {
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    transform: translateY(15%);
+}
+.news1 {
+    font-size: 0.6rem;
+    color: #a52a2a;
+    transform: translateY(60%);
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.news1 span {
+    color: #000;
+    font-size: 1rem;
+    font-family: Tahoma;
+    
+
+}
+.news a {
+    color: red;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}
+.news a:hover {
+    text-decoration: none;
+    transform: scale(1.0);
+    cursor: pointer;
+
+}
+
+.news2 img {
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    transform: translateY(15%);
+
+}
+
+
+.news2 a {
+    transform: scale(1.0);
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}
+.news2 a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+.news-1 {
+    font-size: 0.6rem;
+    color: #a52a2a;
+    transform: translateY(10%);
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.news-1 span {
+    color: #000;
+    font-size: 1rem;
+    font-family: Tahoma;
+}
