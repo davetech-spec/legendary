@@ -12,7 +12,7 @@ body {
 
 }
 .nav {
-    position: fixed;
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -186,7 +186,7 @@ h2 {
 }
 .news2 a:hover {
     text-decoration: none;
-    color: #fff;
+    transform: scale(1.0);
     cursor: pointer;
 
 }
@@ -221,7 +221,7 @@ h2 {
 }
 .more a:hover {
     text-decoration: none;
-    color: black;
+    transform: scale(1.0);
 }
 .close {
     background: #000;
@@ -374,6 +374,47 @@ footer {
 .wales {
     width: 70vw;
 }
+.aware {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('news1.jpeg') no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    font-size: 2.3rem;
+    padding: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.aware h3 {
+    color: blanchedalmond;
+    justify-content: space-between;
+
+}
+.aware p {
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+
+}
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    width: 90vw;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 2.1rem;
+    transform: translateY(40%);
+    margin: 5%;
+    background: blanchedalmond;
+    border-radius: 2px;
+
+}
+
 
 
 @media all and (max-width:500px) {
