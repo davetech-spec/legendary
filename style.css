@@ -414,8 +414,44 @@ h4 {
     border-radius: 2px;
 
 }
+.news3 img {
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    transform: translateY(15%);
+    
+}
+.fact {
+    font-size: 3rem;
+    padding: 3rem 1.5rem;
+    margin: 0;
+}
+.fun {
+    color: #fff;
+    text-align: justify;
 
+}
+.maths {
+    width: 100vw;
+    transform: translateY(5%);
+}
 
+.fun-box {
+    border: #888888 2px solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    transform: translateY(15%);
+    margin: 2%;
+    color: blanchedalmond;
+    
+}
+.fun-box span {
+    font-size: 1.3rem;
+    text-decoration: underline;
+
+}
 
 @media all and (max-width:500px) {
     body {
